@@ -1,82 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>G5-Projeto1Ada-1095</title>
-    <link rel="stylesheet" href="style.csss">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- LINK FONTAWESOME -->
+  <!-- O fontawesome é uma biblioteca de ícones, esse link é a conexão entre a biblioteca e o nosso projeto,
+  é bem simples e fácil de usar, caso queiram eu posso fazer um vídeo explicando como pegar os icones desejados lá
+  e colocar nos projetos de voces. -->
+  <script src="https://kit.fontawesome.com/c46e2ab208.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>G5-Projeto1Ada-1095</title>
 </head>
+
 <body>
-    <header>
-        <nav class="header-menu">
-            <div class="logo">
-                <span>ADA PIZZA</span>
-            </div>
 
-           <ul class="menu">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Tabela</a></li>
-            <li><a href="formulario.html">Cadastrar</a></li>
-           </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section class="main-pizza">
-        <div class="texto">
-            <h2>Friday pizza!</h2>
-            <p>Time to enjoy our delicious pizza.</p>
-            <a href="#" id="order-button">Order Now</a>
-            
-        </div>
-        <img src="/G5-Projeto1Ada-1095/pizzariaprojeto/img/fundo-pizza.png" alt="fundo da pizza">
-        </section>
 
-        <section class="pizzas">
-            <div class="pizza-item">
-                <img src="/G5-Projeto1Ada-1095/pizzariaprojeto/img/pizza-da-esquerda.png" alt="pizza da esquerda">
-                <h3>Cheese Lovers</h3>
-                <p>Combination of Alfredo sauce and two cheeses – Romano, and Parmesan.</p>
-                <button class="buy-button">ADD TO CART</button>
-            </div>
-        
-            <div class="pizza-item">
-                <img src="/G5-Projeto1Ada-1095/pizzariaprojeto/img/pizza-do-meio.png" alt="pizza do meio">
-                <h3>Pepperoni Pizza</h3>
-                <p>Pizza with homemade spicy beef sausage.</p>
-                <button class="buy-button">ADD TO CART</button>
-            </div>
-        
-            <div class="pizza-item">
-                <img src="/G5-Projeto1Ada-1095/pizzariaprojeto/img/pizza-da-direita.png" alt="pizza da direita">
-                <h3>Margherita Pizza</h3>
-                <p>Made with San Marzano tomatoes, mozzarella cheese, and fresh basil.</p>
-                <button class="buy-button">ADD TO CART</button>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div>
-            <table class="footer-tabela">
-                <caption>Nossa Tabela de Preço</caption>
-                <thead>
-                    <tr>
-                        <th>Produto</th>
-                        <th>Preço</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>PIZZA (6 fatias)</td>
-                        <td>R$30,00</td>
-                    </tr>
-                    <tr>
-                        <td>PIZZA (8 fatias)</td>
-                        <td>R$55,00</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </footer>
+  <!-- <header>
+    <nav class="header-menu">
+      <div class="logo">
+        <span>ADA PIZZA</span>
+      </div>
+
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Tabela</a></li>
+        <li><a href="formulario.html">Cadastrar</a></li>
+      </ul>
+    </nav>
+  </header> -->
+
+  <!-- INICIO DO HEADER DO CARDAPIO -->
+
+  <!-- Não criei UL LI para HOME e MENU pq como vao estar todos alinhados, fica mais fácil estilizar tudo direto no header, coloquei um NAV abraçando todo mundo pra conseguir separar mais fácilmente com o display flex -->
+
+  <!-- Coloquei o css no html para verem como cada elemento vai ficar na página -->
+
+  <header>
+    <span>ADA PIZZA</span>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+      <a href="formulario.html">Cadastrar</a>
+    </nav>
+  </header>
+
+  <!-- FIM DO HEADER DO CARDAPIO -->
+
+  <!-- INICIO DA HERO DO CARDAPIO -->
+
+  <hero>
+    <div>
+      <h2>Friday pizza!</h2>
+      <p>Time to enjoy our delicious pizza.</p>
+      <a href="#">Order Now</a>
+    </div>
+    <div>
+      <img src="./img/pizza-degrade.png" alt="fundo da pizza">
+    </div>
+  </hero>
+
+  <!-- FIM DA HERO DO CARDAPIO -->
+
+  <!-- INICIO DO MAIN DO CARDAPIO -->
+
+  <main>
+    <h2>Recommended menu</h2>
+    <section>
+      <div>
+        <img src="./img/pizza-da-esquerda.png" alt="pizza da esquerda">
+        <h3>Cheese Lovers</h3>
+        <p>Combination of Alfredo sauce and two cheeses – Romano, and Parmesan.</p>
+        <button>ADD TO CART</button>
+      </div>
+
+      <div>
+        <img src="./img/pizza-do-meio.png" alt="pizza do meio">
+        <h3>Pepperoni Pizza</h3>
+        <p>Pizza with homemade spicy beef sausage.</p>
+        <button>ADD TO CART</button>
+      </div>
+
+      <div>
+        <img src="./img/pizza-da-direita.png" alt="pizza da direita">
+        <h3>Margherita Pizza</h3>
+        <p>Made with San Marzano tomatoes, mozzarella cheese, and fresh basil.</p>
+        <button>ADD TO CART</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- FIM DO MAIN DO CARDAPIO -->
+
+  <!-- INICIO TABELA -->
+
+  <div>
+    <table>
+      <caption>Nossa Tabela de Preço</caption>
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>PIZZA (6 fatias)</td>
+          <td>R$30,00</td>
+        </tr>
+        <tr>
+          <td>PIZZA (8 fatias)</td>
+          <td>R$55,00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FIM TABELA -->
+
+  <!-- INICIO DO FOOTER DO CARDAPIO -->
+
+  <footer>
+    <p>Desenvolvido com amor pelo grupo 5 - Ada techo & IFood</p>
+  </footer>
+
+  <!-- INICIO DO FOOTER DO CARDAPIO -->
+
 </body>
+
 </html>
