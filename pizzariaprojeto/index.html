@@ -5,47 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- LINK FONTAWESOME -->
-  <!-- O fontawesome é uma biblioteca de ícones, esse link é a conexão entre a biblioteca e o nosso projeto,
-  é bem simples e fácil de usar, caso queiram eu posso fazer um vídeo explicando como pegar os icones desejados lá
-  e colocar nos projetos de voces. -->
   <script src="https://kit.fontawesome.com/c46e2ab208.js" crossorigin="anonymous"></script>
 
+  <!-- LINK CSS -->
   <link rel="stylesheet" href="style.css">
 
   <title>G5-Projeto1Ada-1095</title>
+
 </head>
 
 <body>
-
-  <!-- <header>
-    <nav class="header-menu">
-      <div class="logo">
-        <span>ADA PIZZA</span>
-      </div>
-
-      <ul class="menu">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Tabela</a></li>
-        <li><a href="formulario.html">Cadastrar</a></li>
-      </ul>
-    </nav>
-  </header> -->
-
   <!-- INICIO DO HEADER DO CARDAPIO -->
 
-  <!-- Não criei UL LI para HOME e MENU pq como vao estar todos alinhados, fica mais fácil estilizar tudo direto no header, coloquei um NAV abraçando todo mundo pra conseguir separar mais fácilmente com o display flex -->
-
-  <!-- Coloquei o css no html para verem como cada elemento vai ficar na página -->
-
-  <header id="home">
+  <header id="inicio">
     <span>ADA PIZZA</span>
     <nav>
-      <a href="#home">Home</a>
+      <a href="#inicio">Início</a>
       <a href="#menu">Menu</a>
-      <a href="#table">Table</a>
+      <a href="#tabela">Tabela</a>
+
       <i class="fa-solid fa-magnifying-glass"></i>
       <i class="fa-solid fa-cart-shopping"></i>
-      <a href="formulario.html">Cadastrar</a>
+      <a href="./formulario.html">Cadastrar</a>
     </nav>
   </header>
 
@@ -55,9 +36,9 @@
 
   <hero>
     <div>
-      <h2>Friday pizza!</h2>
-      <p>Time to enjoy our delicious pizza.</p>
-      <a href="#">Order Now</a>
+      <h2>Sexta da Pizza!</h2>
+      <p>Que tal uma pizza deliciosa?</p>
+      <a href="#">Peça já!</a>
     </div>
     <div>
       <img src="./img/pizza-degrade.png" alt="fundo da pizza">
@@ -69,27 +50,27 @@
   <!-- INICIO DO MAIN DO CARDAPIO -->
 
   <main id="menu">
-    <h2>Recommended menu</h2>
+    <h2>Recomendações</h2>
     <section>
       <div>
         <img src="./img/pizza-da-esquerda.png" alt="pizza da esquerda">
-        <h3>Cheese Lovers</h3>
-        <p>Combination of Alfredo sauce and two cheeses – Romano, and Parmesan.</p>
-        <button>ADD TO CART</button>
+        <h3>Amantes do queijo</h3>
+        <p>Combinação do molho Alfredo e dois queijos, Romano e Parmesão!</p>
+        <button>Adicionar</button>
       </div>
 
       <div>
         <img src="./img/pizza-do-meio.png" alt="pizza do meio">
-        <h3>Pepperoni Pizza</h3>
-        <p>Pizza with homemade spicy beef sausage.</p>
-        <button>ADD TO CART</button>
+        <h3>Pizza de pepperoni</h3>
+        <p>Pizza com molho caseiro do bom!</p>
+        <button>Adicionar</button>
       </div>
 
       <div>
         <img src="./img/pizza-da-direita.png" alt="pizza da direita">
-        <h3>Margherita Pizza</h3>
-        <p>Made with San Marzano tomatoes, mozzarella cheese, and fresh basil.</p>
-        <button>ADD TO CART</button>
+        <h3>Pizza de marguerita</h3>
+        <p>Feito com tomate San Marzano, queijo mussarela e manjericão fresco.</p>
+        <button>Adicionar</button>
       </div>
     </section>
   </main>
@@ -98,7 +79,8 @@
 
   <!-- INICIO TABELA -->
 
-  <div id="table">
+
+  <div id="tabela">
     <table>
       <caption>Nossa Tabela de Preço</caption>
       <thead>
