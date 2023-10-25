@@ -12,9 +12,9 @@ A página deve ser otimizada para SEO e acessibilidade;
 A página deve possuir alguma estilização
 
 ## Membros
-- <a href=''>Eliza Reis</a>
-- <a href=''>Dayana Mariano</a>
-- <a href=''>Douglas Caique</a>
-- <a href=''>Karina Nune</a>
-- <a href=''>Raphael Argollo</a>
-- <a href=''>Raphael Moura</a>
+- <a href='https://github.com/elizacso'>Eliza Reis</a>
+- <a href='https://github.com/day-mariano'>Dayana Mariano</a>
+- <a href='https://github.com/douglascaique'>Douglas Caique</a>
+- <a href='https://github.com/karinanuunes'>Karina Nunes</a>
+- <a href='#'>Raphael Argollo</a>
+- <a href='https://github.com/Raphaell-Alves'>Raphael Moura</a>
