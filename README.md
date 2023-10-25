@@ -10,3 +10,11 @@
 ## Extra
 A página deve ser otimizada para SEO e acessibilidade;
 A página deve possuir alguma estilização
+
+## Membros
+Eliza Reis
+Dayana Mariano
+Douglas Caique
+Karina Nune
+Raphael Argollo
+Raphael Moura
