@@ -1,4 +1,4 @@
-# ADA TECH - VEM SER TECH - PROJETO 1 - GRUPO 5
+<h1 color='green'> ADA TECH - VEM SER TECH - PROJETO 1 - GRUPO 5</h1>
 
 ## Fazer um cardápio/catálogo digital;
  - A página deve possuir um título e uma descrição explicando do que se trata;
