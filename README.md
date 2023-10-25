@@ -17,7 +17,7 @@ A página deve possuir alguma estilização
 - <a href='https://github.com/day-mariano'>Dayana Mariano</a>
 - <a href='https://github.com/douglascaique'>Douglas Caique</a>
 - <a href='https://github.com/karinanuunes'>Karina Nunes</a>
-- <a href='#'>Lidiane</a>
+- <a href='https://github.com/Profleide'>Leidiane Silva</a>
 - <a href='https://github.com/arghaell'>Raphael Argollo</a>
 - <a href='https://github.com/Raphaell-Alves'>Raphael Moura</a>
 
