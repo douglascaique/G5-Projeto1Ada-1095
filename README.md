@@ -12,9 +12,9 @@ A página deve ser otimizada para SEO e acessibilidade;
 A página deve possuir alguma estilização
 
 ## Membros
-- Eliza Reis
-- Dayana Mariano
-- Douglas Caique
-- Karina Nune
-- Raphael Argollo
-- Raphael Moura
+- <a href=''>Eliza Reis</a>
+- <a href=''>Dayana Mariano</a>
+- <a href=''>Douglas Caique</a>
+- <a href=''>Karina Nune</a>
+- <a href=''>Raphael Argollo</a>
+- <a href=''>Raphael Moura</a>
