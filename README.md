@@ -12,7 +12,7 @@ A página deve ser otimizada para SEO e acessibilidade;
 A página deve possuir alguma estilização
 
 ## Membros
-- <a href='#'>Eduardo Angelini</a>
+- <a href='https://github.com/Eduangelini'>Eduardo Angelini</a>
 - <a href='https://github.com/elizacso'>Eliza Reis</a>
 - <a href='https://github.com/day-mariano'>Dayana Mariano</a>
 - <a href='https://github.com/douglascaique'>Douglas Caique</a>
